@@ -29,7 +29,7 @@ module "db" {
 
   iam_database_authentication_enabled = true
 
-  vpc_security_group_ids = ["sg-0bd57eeb26da657dc"]
+  vpc_security_group_ids = ["sg-0b49c2a66f516b354"]
   monitoring_interval = "30"
   monitoring_role_name = "kunjan-rds-monitor-1"
   create_monitoring_role = true
